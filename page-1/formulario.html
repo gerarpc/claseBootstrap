@@ -19,40 +19,49 @@
   </button>
   <!--Contenedor de opciones-->
   <div class="collapse navbar-collapse" id="menuOpciones">
-    <div class="navbar-nav ml-alto">
+    <div class="navbar-nav">
       <a class="nav-link" href="./index.html">Inicio<span class="sr-only">(current)</span></a>
       <a class="nav-link" href="./alertas.html">Alertas</a>
-      <a class="nav-link" href="./botones.html">Botones</a>
-      <a class="nav-link active" href="./tarjetas.html">Tarjetas</a>
+      <a class="nav-link active" href="./botones.html">Botones</a>
+      <a class="nav-link" href="./tarjetas.html">Tarjetas</a>
     </div>
   </div>
 </nav>
 <div class="d-flex justify-content-center">
   <div class="col-md-5 border p-5">
     <form>
-      <div class="form-group">
-        <label for="ingreso">Correo</label>
-        <input type="text" class="form-control" id="ingreso" aria-describedby="ingresoHelp">
-        <small id="ingresoHelp" class="form-text text-muted">Correo electronico o usuario</small>
-      </div>
-      <div class="form-group">
-        <label for="contrasena">Contraseña</label>
-        <input type="password" class="form-control" id="contrasena" aria-describedby="contrasenaHelp">
-        <small id="contrasenaHelp" class="form-text text-muted">Contraseña</small>
-      </div>
-      <div class="form-group form-check">
-       
-        <input type="checkbox" class="" id="recordar" aria-describedby="recordarHelp">
-        <label for="recordar" class="form-check-label">Recordar Contraseña</label>
-      </div>
-      <button type="submit" class="btn btn-primary btn-block">Ingresar</button>
-    </form>
+    <div class="form-group">
+      <label for="user">Nombre completo</label>
+      <input required type="text" class="form-control" id="user" aria-describedby="emailHelp">
+      <small id="userHelp" class="form-text text-muted">Escribe tu nombre completo</small>
+    </div>
+    <div class="form-group">
+      <label for="userId">Número de identificación</label>
+      <input required type="text" class="form-control" id="user" aria-describedby="emailHelp">
+      <small id="IdHelp" class="form-text text-muted">Escribe tu documento de identificación</small>
+    </div>
+    <div class="form-group">
+      <label for="email">Correo electrónico</label>
+      <input required type="text" class="form-control" id="email" aria-describedby="emailHelp">
+      <small id="emailHelp" class="form-text text-muted">Escribe tu correo electrónico</small>
+    </div>
+    <div class="form-group">
+      <label for="passwd">Contraseña</label>
+      <input required type="password" class="form-control" id="passwd" aria-describedby="passwdHelp">
+      <small id="passwdHelp" class="form-text text-muted">Escribe tu contraseña</small>
+    </div>
+    <div class="form-group">
+      <label for="passwdConfirm">Confirmar contraseña</label>
+      <input required type="password" class="form-control" id="passwdConfirm" aria-describedby="passwdConfirmHelp">
+      <small id="passwdConfirmHelp" class="form-text text-muted">Confirmar tu contraseña</small>
+    </div>
+    <button type="submit" class="btn btn-primary btn-block">Registrarme</button>
   </div>
-</div>
-
-
-
-  
+  </div>
+  </form>
+ </div>
+ 
+    
 
     <!-- Optional JavaScript; choose one of the two! -->
 
